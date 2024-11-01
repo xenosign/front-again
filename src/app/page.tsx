@@ -9,7 +9,6 @@ type Post = {
 
 // SSR 데이터 Fetching
 async function getPosts() {
-  // JSONPlaceholder API를 사용한 예제
   const res = await fetch(
     'https://jsonplaceholder.typicode.com/posts?_limit=3',
     {
